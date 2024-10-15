@@ -6,7 +6,7 @@ const receiptSchema = new mongoose.Schema({
   receiptno: { type: String, required: true, unique: true },
   name: { type: String, required: true },
   rollno: { type: String, required: true  },
-  std: { type: Number, required: true, unique: true },
+  std: { type: Number, required: true},
   admissionfee: { type: Number, required: true },
   developmentFund: { type: Number, required: true },
   tuitionFee: { type: Number, required: true },
